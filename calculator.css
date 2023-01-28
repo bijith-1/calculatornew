@@ -1,0 +1,36 @@
+.calculator{
+    width: 260px;
+    height: 420px;
+    background-color: black;
+    border-radius: 20px;
+}
+.calc{
+    padding: 21px;
+    margin: 2px;
+    margin-top: 14PX;
+    background-color: rgb(61, 59, 59);
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#screen{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.calc.clear{
+    background-color: red;
+}
+.calc.operate{
+    background-color: rgb(98, 149, 151);
+}
+.calc.value{
+    background-color: rgb(243, 184, 35);
+}
+.calc.number:hover {
+    background-color:greenyellow;
+    color: black;
+}
+
